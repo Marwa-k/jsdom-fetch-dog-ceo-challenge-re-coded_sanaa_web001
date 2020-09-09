@@ -29,3 +29,14 @@ function somImages(data) {
   }
 
 
+function somBreeds(response){
+    const breedList = response.message;
+
+    for (let breed in breedList) {
+        let newLi = document.createElement("li");
+        newLi.innerText = breed;
+        newLi.setAttribute("letter", newLi.innerText.charAt(0))
+        dogList.append(newLi);
+        }
+        
+}
