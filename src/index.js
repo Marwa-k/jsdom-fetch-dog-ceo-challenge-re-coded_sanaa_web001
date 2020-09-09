@@ -43,7 +43,7 @@ function somBreeds(response){
         }
         
          let li = document.querySelectorAll('li');
-          li.forEach(liColor);
+          li.forEach(eachLi);
         function colorChange(event){
             event.target.style.color = 'blue';
         }
