@@ -53,7 +53,7 @@ function somBreeds(response){
 }
 
 
-function Dropdown(){
+function DropdownList(){
     let li = document.querySelectorAll('li');
     let selected = dropDown.value;
 
@@ -67,3 +67,4 @@ function Dropdown(){
     });
 }
 
+dropDown.addEventListener('change', DropdownList);
