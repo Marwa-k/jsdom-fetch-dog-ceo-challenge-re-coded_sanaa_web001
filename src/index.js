@@ -39,7 +39,6 @@ function somBreeds(response){
         let newLi = document.createElement("li");
         newLi.innerText = breed;
         newLi.setAttribute("letter", newLi.innerText.charAt(0))
-        dogList.append(newLi);
+         listDogs.append(newLi);
         }
-        
 }
