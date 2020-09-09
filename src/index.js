@@ -22,4 +22,10 @@ function somImages(data) {
     })
   }
   
-  
+  function fetchBreeds(){
+    fetch('https://dog.ceo/api/breeds/list/all')
+      .then(response => response.json())
+      .then(response => somBreeds(response))
+  }
+
+
