@@ -33,12 +33,13 @@ function somImages(data) {
 
 
 function somBreeds(response){
-    const breedList = response.message;
+    const listOfBreed= response.message;
 
-    for (let breed in breedList) {
+    for (let breed in listOfBreed) {
         let newLi = document.createElement("li");
         newLi.innerText = breed;
         newLi.setAttribute("letter", newLi.innerText.charAt(0))
          listDogs.append(newLi);
         }
 }
+
