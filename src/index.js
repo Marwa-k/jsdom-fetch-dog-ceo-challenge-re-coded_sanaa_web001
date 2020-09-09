@@ -66,5 +66,6 @@ function DropdownList(){
 
 dropDown.addEventListener('change', DropdownList);
 document.addEventListener("DOMContentLoaded", function() {
-  fetchImgUrl()
+  fetchImgUrl();
+  fetchBreeds();
 })
