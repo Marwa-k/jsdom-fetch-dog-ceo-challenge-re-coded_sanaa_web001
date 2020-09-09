@@ -57,7 +57,7 @@ function Dropdown(){
     let li = document.querySelectorAll('li');
     let selected = dropDown.value;
 
-    allLis.forEach(function(li){
+     li.forEach(function(li){
         if(li.innerText.charAt(0) != selected){
             li.style.display="none";
         }
