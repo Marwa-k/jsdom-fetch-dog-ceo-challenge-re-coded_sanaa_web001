@@ -5,9 +5,6 @@ const imgContainer =document.getElementById("dog-image-container");
 const listDogs =document.getElementById("dog-breeds");
 const  dropDown =document.getElementById("breed-dropdown");
 
-document.addEventListener("DOMContentLoaded", function() {
-  fetchImgUrl()
-})
 
 function fetchImgUrl()
 {
@@ -68,3 +65,6 @@ function DropdownList(){
 }
 
 dropDown.addEventListener('change', DropdownList);
+document.addEventListener("DOMContentLoaded", function() {
+  fetchImgUrl()
+})
