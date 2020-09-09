@@ -41,5 +41,14 @@ function somBreeds(response){
         newLi.setAttribute("letter", newLi.innerText.charAt(0))
          listDogs.append(newLi);
         }
+        
+         let li = document.querySelectorAll('li');
+          li.forEach(eachLi);
+        function colorChange(event){
+            event.target.style.color = 'blue';
+        }
+        function eachLi(li){
+            li.addEventListener('click', colorChange)
+        }
 }
 
